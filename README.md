@@ -25,24 +25,22 @@
 
 ## Description
 
-Ce projet consiste en une application web développée pour faciliter l'accès et l'utilisation du service de vélos en libre-service Vélib'. Vélib' est un réseau de stations de vélos électriques et mécaniques, disponible dans la ville de Paris et ses environs.
-
-L'application permet aux utilisateurs de visualiser sur une carte interactive toutes les stations de vélos Vélib', avec des informations détaillées telles que le nom de la station, sa localisation, et sa capacité (nombre de vélos disponibles). L'utilisateur peut interagir avec la carte, consulter les informations spécifiques d'une station, réserver un vélo ou planifier un itinéraire vers une station.
-
-Les données des stations Vélib' sont récupérées en temps réel à partir de l'API publique de Vélib'. Cette API fournit des informations détaillées pour chaque station, telles que l'ID, le nom, la géolocalisation (latitude et longitude) et la capacité. Ces données sont ensuite traitées et formatées pour être affichées dans l'application.
+Ce projet porte sur la mise au point d’une application Web pour l’accès et l’utilisation du service de vélos en libre-service Vélib’ à savoir un réseau de stations de vélos mécaniques et électriques sur le territoire de la ville de Paris et à son agglomération.
+L’application permet aux utilisateurs de visualiser sur une carte interactive l’ensemble des stations de vélos Vélib’ avec des informations afférentes (nom de la station, géolocalisation, capacité (nombre de vélos disponibles). L’utilisateur peut interagir avec la carte, consulter les informations accordées à l’une des stations, réserver un vélo ou bien encore planifier son itinéraire vers une station.
+Les informations sur les stations de vélos Vélib’ sont collectées en temps réel à partir de l’API ouverte de Vélib’. Cette API fournit des informations sur chacune des stations : ID de la station, nom de la station, géolocalisation (latitude et longitude) et capacité de la station. Ces données sont par la suite traitées et formatées pour être affichées sur l’application (mise sous forme de JSON).
 
 ### Fonctionnalités principales de notre application :
 
-- **Visualisation des stations Vélib'** : Une carte interactive affiche toutes les stations de vélos disponibles, avec des informations mises à jour en temps réel provenant de l'API publique de Vélib'.
-- **Détails des stations** : En cliquant sur une station, l'utilisateur peut voir des informations comme le nom, la localisation (latitude et longitude), et la capacité de la station.
-- **Réservation de vélos** : Les utilisateurs peuvent réserver un vélo à une station donnée.
-- **Planification d'itinéraires** : L'utilisateur peut planifier un itinéraire vers une station.
-- **Historique des réservations et recherches** : L'application permet aux utilisateurs de créer un compte et consulter leur historique de recherches et réservations.
+- **Visualisation des stations Vélib'** : Carte interactive affichant la totalité des stations de vélos mises à jour en temps-réel via l’API publique de Vélib’.
+- **Détails des stations** : En cliquant sur une station, l’utilisateur peut avoir accès à des informations sur elle (nom, géolocalisation, capacité).
+- **Réservation de vélos** : L’utilisateur peut réserver à une station un vélo disponible.
+- **Planification d'itinéraires** : L’utilisateur peut planifier son itinéraire vers une station.
+- **Historique des réservations et recherches** : L’utilisateur peut se connecter à son compte pour consulter l’historique de ses recherches et réservations. 
 
 ### Défis rencontrés lors de la réalisation :
 
-L'un des principaux défis lors de la création de cette application a été de récupérer et de traiter les données provenant de l'API Vélib'. En effet, l'API fournit une grande quantité de données pour chaque station, mais celles-ci sont parfois incomplètes ou mal structurées. Le défi consistait donc à comprendre comment extraire et valider les informations pertinentes de manière fiable.<br><br>
-Après des recherches approfondies, nous avons opté pour Python comme langage de script pour résoudre ce problème.
+Parmi les difficultés majeures qui ont été rencontrées lors de l’élaboration de cette application, l’indexation et le traitement des données fournies par l’API Vélib’ a constitué un point central. Car l’API a le mérite de rendre accessible une grande quantité de données (dont celles disponibles pour chaque station) qui parfois, apparaissent incomplètes voire mal formées ; le point problématique a donc consisté à s’assurer de la capacité à faire une extraction correcte et une valorisation adéquate des données utiles.
+Finalement, après de multiples investigations, la solution retenue a été de se pencher sur l’usage de Python comme langage de script. 
 
 ## Rôle du script Python
 
