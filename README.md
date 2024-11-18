@@ -1,5 +1,25 @@
 # Projet : Application Web de Service Vélib'
 
+## Compétences de la SAE en BUT 2
+
+1. **Réaliser un développement d'application** *(réaliser)*  
+   Capacité à concevoir et développer des applications adaptées aux besoins spécifiques.
+
+2. **Optimiser des applications** *(optimiser)*  
+   Savoir améliorer les performances et l'efficacité des applications existantes.
+
+3. **Administrer des systèmes informatiques communicants complexes** *(administrer)*  
+   Maîtrise de l'administration des systèmes et réseaux avancés.
+
+4. **Gérer des données de l'information** *(gérer)*  
+   Compétence dans la manipulation, l'organisation et la sécurité des données.
+
+5. **Conduire un projet** *(conduire)*  
+   Gestion des différentes étapes d'un projet informatique, de la conception à la livraison.
+
+6. **Collaborer au sein d'une équipe informatique** *(collaborer)*  
+   Aptitude à travailler en collaboration dans un environnement de développement.
+
 ### Sommaire
 
 1. [Description du Projet](#description)
